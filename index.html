@@ -1,33 +1,5 @@
+
 <!DOCTYPE html>
-<html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <title>Мой сайт</title>
-  <style>
-    body { font-family: Arial, sans-serif; text-align: center; background: #111; color: #fff; }
-    h1 { margin-top: 50px; }
-    a {
-      display: block;
-      margin: 15px auto;
-      padding: 15px 30px;
-      width: 200px;
-      background: #444;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 8px;
-      transition: 0.3s;
-    }
-    a:hover { background: #666; }
-  </style>
-</head>
-<body>
-  <h1>Добро пожаловать!</h1>
-  <p>Выбери раздел:</p>
-  <a href="steam.html">Steam</a>
-  <a href="soundcloud.html">SoundCloud</a>
-  <a href="moder.html">Модерация</a>
-</body>
-</html><!DOCTYPE html>
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
@@ -35,6 +7,57 @@
   <title>hayakawaaa_</title>
   <style>
     body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url("background.jpg") no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+      text-align: center;
+    }
+    .overlay {
+      background: rgba(0, 0, 0, 0.6);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+    }
+    .btn {
+      display: block;
+      margin: 10px;
+      padding: 15px 30px;
+      background: #444;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-size: 1.2em;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <h1>hayakawaaa_</h1>
+    <p>Добро пожаловать 👋</p>
+
+    <a href="https://steamcommunity.com/id/ТВОЙ_STEAM" class="btn">🎮 Steam</a>
+    <a href="https://soundcloud.com/ТВОЙ_SOUNDCLOUD" class="btn">🎵 SoundCloud</a>
+    <a href="https://t.me/ТВОЙ_TG" class="btn">👑 У кого модер</a>
+  </div>
+</body>
+</html>    body {
       margin: 0;
       font-family: Arial, sans-serif;
       background: url('img/banner.jpg') no-repeat center center fixed;
